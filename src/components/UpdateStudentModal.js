@@ -1,6 +1,6 @@
-import React,{Component} from 'react';
+// import React,{Component} from 'react';
 import {Modal, Col, Row, Form, Button} from 'react-bootstrap';
-import {FormControl, FormGroup, FormLabel} from 'react-bootstrap';
+// import {FormControl, FormGroup, FormLabel} from 'react-bootstrap';
 import { updateStudent } from '../services/StudentService';
 
 

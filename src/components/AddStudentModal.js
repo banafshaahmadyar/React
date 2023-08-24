@@ -1,6 +1,6 @@
 import React from 'react';
 import {Modal, Col, Row, Form, Button} from 'react-bootstrap';
-import {FormControl, FormGroup, FormLabel} from 'react-bootstrap';
+// import {FormControl, FormGroup, FormLabel} from 'react-bootstrap';
 import { addStudent } from '../services/StudentService';
 
 
@@ -14,7 +14,7 @@ const AddStudentModal = (props) => {
             props.setUpdated(true);
         },
         (error)=>{
-            alert("Failed to Add Student");
+            alert("Failed to Add Student", error);
         })
     }
 
