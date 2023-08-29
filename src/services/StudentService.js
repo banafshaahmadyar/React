@@ -1,12 +1,12 @@
 import axios from 'axios';
 
 export function getStudents() {
-  return axios.get('https://8000-banafshaahmadyar-djnago-fjabwetfgyc.ws-us104.gitpod.io/students/')
+  return axios.get(`${process.env.REACT_APP_API_URL}students/`)
     .then(response => response.data)
 }
 
 export function deleteStudent(studentId) {
-  return axios.delete('https://8000-banafshaahmadyar-djnago-fjabwetfgyc.ws-us104.gitpod.io/students/' + studentId + '/', {
+  return axios.delete(`${process.env.REACT_APP_API_URL}students/${studentId}/`, {
    method: 'DELETE',
    headers: {
      'Accept':'application/json',
@@ -17,7 +17,7 @@ export function deleteStudent(studentId) {
 }
 
 export function addStudent(student){
-  return axios.post('https://8000-banafshaahmadyar-djnago-fjabwetfgyc.ws-us104.gitpod.io/students/', {
+  return axios.post(`${process.env.REACT_APP_API_URL}students/`, {
     studentId:null,
     FirstName:student.FirstName.value,
     LastName:student.LastName.value,
@@ -29,7 +29,7 @@ export function addStudent(student){
 }
 
 export function updateStudent(stuid, student) {
-  return axios.put('https://8000-banafshaahmadyar-djnago-fjabwetfgyc.ws-us104.gitpod.io/students/' + stuid + '/', {
+  return axios.put(`${process.env.REACT_APP_API_URL}students/${stuid}/`, {
     FirstName:student.FirstName.value,
     LastName:student.LastName.value,
     RegistrationNo:student.RegistrationNo.value,
