@@ -25,19 +25,41 @@
 | Content of header     | Site user | view LOGO , App name            | That is all content in header                                                                   |
 | Navigation bar     | visitor | view the navgation bar         | so that is in right side of this app                                                  |
 | Navigation bar content     | visitor | I can see Home, Students list , manage student and Registration page          | That is all content of navgation bar                                                      |
-| posts     | visitor | scroll through a list of posts | browse the site more comfortably                                                                 |
-| posts     | user    | edit and delete my post        | correct or hide any mistakes                                                                     |
-| posts     | user    | create a post                  | share my moments with others                                                                     |
-| posts     | user    | view liked posts               | go back often to my favourite posts                                                              |
-| posts     | user    | view followed users' posts     | keep up with my favourite users' moments                                                         |
-| likes     | user    | like a post                    | express my interest in someone's shared moment                                                   |
-| likes     | user    | unlike a post                  | express that my interest in someone's shared moment has faded away                               |
-| comments  | user    | create a comment               | share my thoughts on other people's content                                                      | 
-| comments  | user    | edit and delete my comment     | correct or hide any mistakes                                                                     | 
-| profiles  | user    | view a profile                 | see a user's recent posts + post, followers, following count data                                | 
-| profiles  | user    | edit a profile                 | update my profile information                                                                    |
+| Home     | site user | I can see home in navgation  | so that I added thre images here                                                                  |
+| Images in home page     | site user    | can change the image that I added in home page        | the image showing like slaid show                                                                     |
+| Students list     | site user    | see student list on navigation bar                  | o that on here we can see all details of students that we submit in add student bottom                                                                     |
+| Student list page content ID     | site user    | see list of ID              | so that added for each students                                                              |
+| Student list page content First name     | Site user    |  can see First Name of student     | so that Entered for each student                                                         |
+| Student list page content Last Name     | Site user    | can see Last Name of student                     | so that That added before                                                   |
+| Student list page content Registration No     | Site user    | can see registration no of students                   | that entered before                               |
+| Student list page content Email  | Site user    | can see Email of each students               | so that entered before                                                      | 
+| Student list page content Course  | Site user    | can see Course details of students     | that entered before                                                                     | 
+| Manage students  | Site user    | can see manage students in navigation bar that is the main page                 | that add, edit,delete and store all details of students                                | 
+| Manage student page content  | Site user    |  can see all details of students                | that will store in our database also                                                                   |
+| Manage student page content Add student | Site user    | can add student all details of student              |  that will stored and view in student list page also                                                         | 
+| Add student bottom content | Site user    | see some details of student            | that we want to enter it in this app |
+| Add student page content First Name | Site user    | can add First Name of student              | that will stored and views in student list page alsot                                                         | 
+| Add student page content Last Name | Site user    | can add Last Name of student              | that will stored and view in student list page also                                                         | 
+| Add student page list content RegistrationNO | Site user    | can add registration no for student                | that will store and view in student list page also                                                         | 
+| Add student page content Email | Site user    | can add student email              | that stored and view in student list page aslo                                                        | 
 | followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | unfollow a profile             | express that my interest in someone's content has faded away and remove their posts from my feed | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+
 
 ## Detailed page and component breakdown:
 
