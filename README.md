@@ -2,12 +2,18 @@
 
 ## Project description
 
-1: Student Information Management System
+1: Student Information Management System.
+
 2: Store the First name of the student.
+
 3: Store the Last name of the student.
+
 4: Store the unique Roll number for every student.
+
 5: Store the Email Address of every student.
+
 6: Store the courses registered by the student.
+
 
 ## User stories
 
