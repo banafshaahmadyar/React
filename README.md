@@ -2,7 +2,7 @@
 
 ## Project description
 
-1: Student Information Management System.
+1: Student Information Management System.<br>
 
 2: Store the First name of the student.
 
