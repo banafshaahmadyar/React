@@ -42,23 +42,23 @@
 | Add student page content Last Name | Site user    | can add Last Name of student              | that will stored and view in student list page also                                                         | 
 | Add student page list content RegistrationNO | Site user    | can add registration no for student                | that will store and view in student list page also                                                         | 
 | Add student page content Email | Site user    | can add student email              | that stored and view in student list page aslo                                                        | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| Add student page content Course | site user    | can add any course for user that want               | that show in student list page also                                                         | 
+| Add student page content Submit bottom | Site user    | can submit all details of student               | that is done for this page                                                         | 
+| Manage student page content ID | Site user    | can see ID of student              |  that will add automatically                                                        | 
+| Manage student page content FIst Name | Site user    | can see First name of student                | that entered before in Add student page                                                         | 
+| Manage student page content Last Name | Site user    | can see Last Name of Student              |  that entered before in Add student page                                                         | 
+| Manage student page content RegistrationNo | Site user    | can see registration No of studen               | that entered before in Add student page                                                         | 
+| Manage student page content Email | Site user    | can see email of student               | that entered in Add student page                                                         | 
+| Manage student page content Course | Site user    | can see course details              | that entered in Add student page before                                                         | 
+| Manage student page content Action | Site user    | can see Action part on this details list             | that the user cant Edit or Delete any student details                                                         | 
+| Manage student page Action Delete bottom | Site user    | can see delete bottom              | that can remove any student details                                                         | 
+| Manage student page content Action Edit Icon | Site user    | can see edit ico              | that user can edit any information of the student                                                        | 
+| Edit Icon page content | Site user    | can edit First Name of student             | that entered before in Add student page                                                         | 
+| Edit Icon Last Name | Site user    | can edit last name of student               | that entered before in Add student page                                                         | 
+| Edit Icon page RegistrationNO | Site user    | can edit registration no of student              | that entered before in Add student paget                                                         | 
+| Edit icon page content Email | Site user    | can edit Email of student              | that entered before in Add student page                                                        | 
+| Edit icon page content Course | Site user    | can edit course details             | so that entered in Add student page before                                                         | 
+| At the end | Site user    | can use this app if we want to store edit delete and update any information for our students               | 👍 (:                                                       | 
 
 
 ## Detailed page and component breakdown:
