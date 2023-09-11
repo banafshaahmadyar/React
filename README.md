@@ -20,11 +20,11 @@
 | Category  | as      | I want to                      | so that I can                                                                                    | 
 | --------- | ------- | ------------------------------ | ------------------------------------------------------------------------------------------------ |
 | App name      | site user    | can see app name         | So that is Students managment system                                                           |
-| auth      | user    | register for an account        | create, like and comment on posts                                                                |
-| auth      | user    | register for an account        | follow users                                                                                     |
-| posts     | visitor | view a list of posts           | browse the most recent uploads                                                                   |
-| posts     | visitor | view an individual post        | see user feedback, i.e. likes and read comments                                                  |
-| posts     | visitor | search a list of posts         | find a post by a specific artist or a title                                                      |
+| Logo      | Site user    | can see logo in this app        | that is before app name                                                               |
+| Background color of header      | Site user    | can see background color of header        | That the color is black                                                                                     |
+| Content of header     | Site user | view LOGO , App name            | That is all content in header                                                                   |
+| Navigation bar     | visitor | view the navgation bar         | so that is in right side of this app                                                  |
+| Navigation bar content     | visitor | I can see Home, Students list , manage student and Registration page          | That is all content of navgation bar                                                      |
 | posts     | visitor | scroll through a list of posts | browse the site more comfortably                                                                 |
 | posts     | user    | edit and delete my post        | correct or hide any mistakes                                                                     |
 | posts     | user    | create a post                  | share my moments with others                                                                     |
