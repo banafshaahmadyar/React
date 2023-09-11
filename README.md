@@ -19,7 +19,7 @@
 
 | Category  | as      | I want to                      | so that I can                                                                                    | 
 | --------- | ------- | ------------------------------ | ------------------------------------------------------------------------------------------------ |
-| auth      | user    | register for an account        | have a personal profile with a picture                                                           |
+| App name      | site user    | can see app name         | So that is Students managment system                                                           |
 | auth      | user    | register for an account        | create, like and comment on posts                                                                |
 | auth      | user    | register for an account        | follow users                                                                                     |
 | posts     | visitor | view a list of posts           | browse the most recent uploads                                                                   |
