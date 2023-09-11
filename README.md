@@ -17,27 +17,27 @@
 
 ## User stories
 
-| Category  | as      | I want to                      | so that I can                                                                                    | UI components                                |
-| --------- | ------- | ------------------------------ | ------------------------------------------------------------------------------------------------ | -------------------------------------------- |
-| auth      | user    | register for an account        | have a personal profile with a picture                                                           | SignUpForm<br>ProfilePage<br>ProfileEditForm |
-| auth      | user    | register for an account        | create, like and comment on posts                                                                | Post<br>PostPage<br>Comment                  |
-| auth      | user    | register for an account        | follow users                                                                                     | Profile<br>ProfilePage                       |
-| posts     | visitor | view a list of posts           | browse the most recent uploads                                                                   | PostsPage                                    |
-| posts     | visitor | view an individual post        | see user feedback, i.e. likes and read comments                                                  | Post<br>PostPaget                            |
-| posts     | visitor | search a list of posts         | find a post by a specific artist or a title                                                      | PostsPage                                    |
-| posts     | visitor | scroll through a list of posts | browse the site more comfortably                                                                 | InfiniteScrollComponent                      |
-| posts     | user    | edit and delete my post        | correct or hide any mistakes                                                                     | PostEditForm<br>MoreDropdownMenu             |
-| posts     | user    | create a post                  | share my moments with others                                                                     | PostCreateForm                               |
-| posts     | user    | view liked posts               | go back often to my favourite posts                                                              | PostsPage                                    |
-| posts     | user    | view followed users' posts     | keep up with my favourite users' moments                                                         | PostsPage                                    |
-| likes     | user    | like a post                    | express my interest in someone's shared moment                                                   | Post like icon                               |
-| likes     | user    | unlike a post                  | express that my interest in someone's shared moment has faded away                               | Post (un) like icon                          |
-| comments  | user    | create a comment               | share my thoughts on other people's content                                                      | PostPage<br>CommentCreateForm                |
-| comments  | user    | edit and delete my comment     | correct or hide any mistakes                                                                     | PostPage<br>Comment<br>MoreDropdownMenu      |
-| profiles  | user    | view a profile                 | see a user's recent posts + post, followers, following count data                                | ProfilePage<br>Post                          |
-| profiles  | user    | edit a profile                 | update my profile information                                                                    | ProfileEditForm                              |
-| followers | user    | follow a profile               | express my interest in someone's content                                                         | Profile follow button                        |
-| followers | user    | unfollow a profile             | express that my interest in someone's content has faded away and remove their posts from my feed | Profile (un) follow button                   |
+| Category  | as      | I want to                      | so that I can                                                                                    | 
+| --------- | ------- | ------------------------------ | ------------------------------------------------------------------------------------------------ |
+| auth      | user    | register for an account        | have a personal profile with a picture                                                           |
+| auth      | user    | register for an account        | create, like and comment on posts                                                                |
+| auth      | user    | register for an account        | follow users                                                                                     |
+| posts     | visitor | view a list of posts           | browse the most recent uploads                                                                   |
+| posts     | visitor | view an individual post        | see user feedback, i.e. likes and read comments                                                  |
+| posts     | visitor | search a list of posts         | find a post by a specific artist or a title                                                      |
+| posts     | visitor | scroll through a list of posts | browse the site more comfortably                                                                 |
+| posts     | user    | edit and delete my post        | correct or hide any mistakes                                                                     |
+| posts     | user    | create a post                  | share my moments with others                                                                     |
+| posts     | user    | view liked posts               | go back often to my favourite posts                                                              |
+| posts     | user    | view followed users' posts     | keep up with my favourite users' moments                                                         |
+| likes     | user    | like a post                    | express my interest in someone's shared moment                                                   |
+| likes     | user    | unlike a post                  | express that my interest in someone's shared moment has faded away                               |
+| comments  | user    | create a comment               | share my thoughts on other people's content                                                      | 
+| comments  | user    | edit and delete my comment     | correct or hide any mistakes                                                                     | 
+| profiles  | user    | view a profile                 | see a user's recent posts + post, followers, following count data                                | 
+| profiles  | user    | edit a profile                 | update my profile information                                                                    |
+| followers | user    | follow a profile               | express my interest in someone's content                                                         | 
+| followers | user    | unfollow a profile             | express that my interest in someone's content has faded away and remove their posts from my feed | 
 
 ## Detailed page and component breakdown:
 
