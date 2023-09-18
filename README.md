@@ -1,102 +1,118 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Students managment system 
 
-Welcome,
+## Project description
 
-This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
-DO NOT use this template if you are using the Gitpod IDE. Use the following command instead:  
-`npx create-react-app . --template git+https://github.com/Code-Institute-Org/cra-template-moments.git --use-npm`
+1: Student Information Management System.<br>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **8th August, 2023**
+2: Store the First name of the student.
 
-## Codeanywhere Reminders
+3: Store the Last name of the student.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+4: Store the unique Roll number for every student.
 
-To log into the Heroku toolbelt CLI:
+5: Store the Email Address of every student.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+6: Store the courses registered by the student.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+
+## User stories
+
+| Category  | as      | I want to                      | so that I can                                                                                    | 
+| --------- | ------- | ------------------------------ | ------------------------------------------------------------------------------------------------ |
+| App name      | site user    | can see app name         | So that is Students managment system                                                           |
+| Logo      | Site user    | can see logo in this app        | that is before app name                                                               |
+| Background color of header      | Site user    | can see background color of header        | That the color is black                                                                                     |
+| Content of header     | Site user | view LOGO , App name            | That is all content in header                                                                   |
+| Navigation bar     | visitor | view the navgation bar         | so that is in right side of this app                                                  |
+| Navigation bar content     | visitor | I can see Home, Students list , manage student and Registration page          | That is all content of navgation bar                                                      |
+| Home     | site user | I can see home in navgation  | so that I added thre images here                                                                  |
+| Images in home page     | site user    | can change the image that I added in home page        | the image showing like slaid show                                                                     |
+| Students list     | site user    | see student list on navigation bar                  | o that on here we can see all details of students that we submit in add student bottom                                                                     |
+| Student list page content ID     | site user    | see list of ID              | so that added for each students                                                              |
+| Student list page content First name     | Site user    |  can see First Name of student     | so that Entered for each student                                                         |
+| Student list page content Last Name     | Site user    | can see Last Name of student                     | so that That added before                                                   |
+| Student list page content Registration No     | Site user    | can see registration no of students                   | that entered before                               |
+| Student list page content Email  | Site user    | can see Email of each students               | so that entered before                                                      | 
+| Student list page content Course  | Site user    | can see Course details of students     | that entered before                                                                     | 
+| Manage students  | Site user    | can see manage students in navigation bar that is the main page                 | that add, edit,delete and store all details of students                                | 
+| Manage student page content  | Site user    |  can see all details of students                | that will store in our database also                                                                   |
+| Manage student page content Add student | Site user    | can add student all details of student              |  that will stored and view in student list page also                                                         | 
+| Add student bottom content | Site user    | see some details of student            | that we want to enter it in this app |
+| Add student page content First Name | Site user    | can add First Name of student              | that will stored and views in student list page alsot                                                         | 
+| Add student page content Last Name | Site user    | can add Last Name of student              | that will stored and view in student list page also                                                         | 
+| Add student page list content RegistrationNO | Site user    | can add registration no for student                | that will store and view in student list page also                                                         | 
+| Add student page content Email | Site user    | can add student email              | that stored and view in student list page aslo                                                        | 
+| Add student page content Course | site user    | can add any course for user that want               | that show in student list page also                                                         | 
+| Add student page content Submit bottom | Site user    | can submit all details of student               | that is done for this page                                                         | 
+| Manage student page content ID | Site user    | can see ID of student              |  that will add automatically                                                        | 
+| Manage student page content FIst Name | Site user    | can see First name of student                | that entered before in Add student page                                                         | 
+| Manage student page content Last Name | Site user    | can see Last Name of Student              |  that entered before in Add student page                                                         | 
+| Manage student page content RegistrationNo | Site user    | can see registration No of studen               | that entered before in Add student page                                                         | 
+| Manage student page content Email | Site user    | can see email of student               | that entered in Add student page                                                         | 
+| Manage student page content Course | Site user    | can see course details              | that entered in Add student page before                                                         | 
+| Manage student page content Action | Site user    | can see Action part on this details list             | that the user cant Edit or Delete any student details                                                         | 
+| Manage student page Action Delete bottom | Site user    | can see delete bottom              | that can remove any student details                                                         | 
+| Manage student page content Action Edit Icon | Site user    | can see edit ico              | that user can edit any information of the student                                                        | 
+| Edit Icon page content | Site user    | can edit First Name of student             | that entered before in Add student page                                                         | 
+| Edit Icon Last Name | Site user    | can edit last name of student               | that entered before in Add student page                                                         | 
+| Edit Icon page RegistrationNO | Site user    | can edit registration no of student              | that entered before in Add student paget                                                         | 
+| Edit icon page content Email | Site user    | can edit Email of student              | that entered before in Add student page                                                        | 
+| Edit icon page content Course | Site user    | can edit course details             | so that entered in Add student page before                                                         | 
+| At the end | Site user    | can use this app if we want to store edit delete and update any information for our students               | 👍 (:                                                       | 
+
+
+## Detailed page and component breakdown:
+
+![lucidchart](https://res.cloudinary.com/dgjrrvdbl/image/upload/v1649155000/moments-component-map_rfth6q.png)
+
+## Most reused components:
+
+- PostsPage:
+  - Home, Feed, Liked
+- Post:
+  - PostsPage
+- Profile:
+  - PopularProfiles, PopularProfiles (mobile)
+- DropdownMenus:
+  - Post, ProfilePage, Comment
+- InfiniteScrollComponent:
+  - PostPage (loading Comment components)
+  - PostsPage (loading all, feed or liked Post components)
+  - ProfilePage (loading Post components that belong to the profile)
+
+## Deployment steps
+
+- add prebuild script
+- add Procfile
+- remove all console.logs
+- use Bootstrap default imports to minimize the build
+- deploy to Heroku
+
+## Tests:
+
+### Automated:
+
+- used the msw library to mock user and logout endpoints
+- tested the NavBar component:
+  - renders without a problem
+  - renders the link to a user profile for a logged in user
+  - renders the sign in and sign up buttons again on logout
+
+### Manual:
+
+- every other feature tested extensively
+
+## Libraries, contexts and hooks:
+
+- react-infinite-scroll-component
+  - introduced to replace traditional pagination with lazy loading instead of pagination to make the application more performant and seem more snappy/ engaging
+- react-bootstrap:
+  - introduced
+- contexts:
+  - CurrentUserContext exposes the user state to the entire app. Relevant components can subscribe to its changes
+  - ProfileDataContext exposes the profile state to the entire app. Enables the PopularProfiles component to be in sync with the ProfilePage contents
+- custom hooks written to reduce repeatable state logic:
+  - useClickOutsideToggle: enable toggle on the burger menu
+  - useRedirect: enable redirect for users who are either logged in or logged out, depending on the use case
 
 ---
-
-Happy coding!
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm install`
-
-Installs the required npm packages.
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open port 3000 to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
