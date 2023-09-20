@@ -1,9 +1,16 @@
 import axios from 'axios';
+import { rj } from 'react-rocketjump'
 
-export function getStudents() {
-  return axios.get(`${process.env.REACT_APP_API_URL}students/`)
-    .then(response => response.data)
-}
+
+export const getStudents = rj({
+  effectCaller: rj.configured(),
+  effect: (token) => () =>
+  axios.get(`${process.env.REACT_APP_API_URL}students/`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    }
+  }).then(response => response.data)
+})
 
 export function deleteStudent(studentId) {
   return axios.delete(`${process.env.REACT_APP_API_URL}students/${studentId}/`, {
