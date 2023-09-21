@@ -23,17 +23,11 @@ function App() {
     <Auth loginCall={login} meCall={me} refreshTokenCall={refresh}>
       <ConfigureAuth>
         <Router>
-          <Switch>
-            <Switch>
-              <AuthRoute path="/" exact redirectTo="/login">
-                <Navigation />
-                <Route exact path="/"> <Home /> </Route>
-                <Route path="/students"><Students /></Route>
-                <Route path="/manage"><Manage /></Route>
-              </AuthRoute>
-              <GuestRoute path="/login" redirectTo="/"><Login /></GuestRoute>
-            </Switch>
-          </Switch>
+          <AuthRoute path="/" exact redirectTo="/login" />
+          <AuthRoute exact path="/"><><Navigation /><Home /></></AuthRoute>
+          <AuthRoute path="/students"><><Navigation /><Students /></></AuthRoute>
+          <AuthRoute path="/manage"><><Navigation /><Manage /></></AuthRoute>
+          <GuestRoute path="/login" redirectTo="/"><Login /></GuestRoute>
         </Router>
       </ConfigureAuth>
     </Auth>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Table, Button, ButtonToolbar } from 'react-bootstrap';
-import { useRunRj } from 'react-rocketjump';
 import { FaEdit } from 'react-icons/fa';
 import { RiDeleteBin5Line } from 'react-icons/ri';
 import AddStudentModal from "./AddStudentModal";
@@ -9,13 +8,28 @@ import { getStudents, deleteStudent } from '../services/StudentService';
 
 
 const Manage = () => {
+  const [students, setStudents] = useState([]);
   const [addModalShow, setAddModalShow] = useState(false);
   const [editModalShow, setEditModalShow] = useState(false);
   const [editStudent, setEditStudent] = useState([]);
   const [isUpdated, setIsUpdated] = useState(false);
 
-  const [{ data: students }] = useRunRj(getStudents, [isUpdated], false)
-
+  useEffect(() => {
+    let mounted = true;
+    if (students.length && !isUpdated) {
+      return;
+    }
+    getStudents()
+      .then(data => {
+        if (mounted) {
+          setStudents(data);
+        }
+      })
+    return () => {
+      mounted = false;
+      setIsUpdated(false);
+    }
+  }, [isUpdated, students])
   const handleUpdate = (e, stu) => {
     e.preventDefault();
     setEditModalShow(true);
