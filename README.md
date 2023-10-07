@@ -14,6 +14,10 @@
 
 6: Store the courses registered by the student.
 
+## site veiw 
+
+![Alt text](image.png)
+
 
 ## User stories
 
@@ -61,9 +65,7 @@
 | At the end | Site user    | can use this app if we want to store edit delete and update any information for our students               | 👍 (:                                                       | 
 
 
-## Detailed page and component breakdown:
 
-![lucidchart](https://res.cloudinary.com/dgjrrvdbl/image/upload/v1649155000/moments-component-map_rfth6q.png)
 
 ## Most reused components:
 
