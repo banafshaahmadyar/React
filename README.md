@@ -1,5 +1,10 @@
  # Students managment system 
 
+ The student management system is an environment where all the process of the student in the institution is managed.
+ This is a simple app that an admin can add students details. and have one log in page whom that has accsess on username and 
+ password can use this app. why I made just log on page because of securitiy and all can get accsess on students details.
+ I made this app for an specifice course , center , universaity and other learning place .
+
 ## Project description
 
 1: Student Information Management System.<br>
@@ -15,6 +20,8 @@
 6: Store the courses registered by the student.
 
 ## site veiw 
+[You can try it here on the live website!](https://react-students-297a74c90fad.herokuapp.com/)
+
 
 ![Alt text](image.png)
 
