@@ -150,26 +150,41 @@ When user click on ok then one alert massage will appear.
 <img width="938" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/8b4055e3-9989-4013-bdc1-07920b4a13f2">
 
 * Update Icon
+* 
   When user click on update icon one alert massage will appear then the Id will update.
 
 <img width="938" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/491bedea-bfcb-43d0-9c91-01a7756d26ea">
   
+ ## _**Design**_
 
+  * ### _Font:_
+    * I used a Google Font called Lato with regular (400) weight and add Italic style to all of the headers and normal for rest of the page.
+ 
+  * ### _Colors:_
+   * I uesed white and black colors for this app
+   * But for bottom I used specifice colors like:
+      * Blue for submit , add student and edit bottom.
+      * Red for delete and close bottom.
 
-## Most reused components:
-
-- PostsPage:
-  - Home, Feed, Liked
-- Post:
-  - PostsPage
-- Profile:
-  - PopularProfiles, PopularProfiles (mobile)
-- DropdownMenus:
-  - Post, ProfilePage, Comment
-- InfiniteScrollComponent:
-  - PostPage (loading Comment components)
-  - PostsPage (loading all, feed or liked Post components)
-  - ProfilePage (loading Post components that belong to the profile)
+## _**Technology Used**_
+* [Django reast frame work](https://www.django-rest-framework.org/ "Django reast framework Project website")
+    - Django was used to build the models, forms and views of the app, and was the backbone of this project.
+* [React js](https://react.dev/learn "React.js Project website")
+    - React was used to build the frintend of this project.
+* [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/ "Bootstrap")
+     - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes, but also other styling such as buttons etc.
+* [Cloudinary](https://cloudinary.com/ "Cloudinary")
+     - Cloudinary was used as free cloud storage for images uploaded to the site through the recipe forms.
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+    - Google fonts were used to import the fonts "Playfair Display" and "Lato" into the style.css file. These fonts were used throughout the project.
+* [Font Awesome](https://fontawesome.com/ "FontAwesome")
+     - Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+* [GitPod](https://git-scm.com/ "GitPod")
+     - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
+* [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing
+* [ElephantSQL](https://www.elephantsql.com/ "ElephantSQL Database")
+    - ElephantSQL was used to the new database instead of the Heroku's Postgres
 
 ## Deployment steps
 
