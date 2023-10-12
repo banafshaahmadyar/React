@@ -186,15 +186,96 @@ When user click on ok then one alert massage will appear.
 * [ElephantSQL](https://www.elephantsql.com/ "ElephantSQL Database")
     - ElephantSQL was used to the new database instead of the Heroku's Postgres
 
-## Deployment steps
+# Deployment
+## Set up ElephantSQL as Database for this application ##
 
-- add prebuild script
-- add Procfile
-- remove all console.logs
-- use Bootstrap default imports to minimize the build
-- deploy to Heroku
+  - Go to the ElephantSQL website (https://www.elephantsql.com/) and create an account.
 
-## Tests:
+  - After creating an account, you will be able to create a new PostgreSQL database. Choose the plan that best fits your needs and click "Create new instance".
+
+  - Give your database a name and select a region.
+
+  - Once the database is created, you will see the database details page. Here, you can find the connection details for your database, including the hostname, port, database name, and username.
+
+  - To connect to the database using the connection details provided.
+## Set Up Cloudinary to host images and template files ##
+
+  - Sign up for a Cloudinary account at https://cloudinary.com/users/register/free.
+
+  - In the dashboard, you will see your "Cloud Name", "API Key", and "API Secret". These are saved as environment valiables in ***Heruko*** and .env local file.
+
+  - Install the Cloudinary Python library by running the following command:
+
+        pip install cloudinary
+
+  - Add cloudinary in INSTALLED_APPS list in settings.py
+  - Add the following code to your Django settings file to configure the Cloudinary library with your account credentials:
+
+    ```
+      STATIC_URL = '/static/'
+      STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+      STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+      STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+      CLOUDINARY_STORAGE = {
+          'CLOUD_NAME': os.environ.get('CLOUD_NAME'),
+          'API_KEY': os.environ.get('API_KEY'),
+          'API_SECRET': os.environ.get('API_SECRET'),
+      }
+      
+      MEDIA_URL = '/media/'
+      DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+    ```
+  - Run the following command to apply the changes to your Django project:
+    ```
+        python manage.py migrate
+    ```
+
+## Deployment to Heroku ##
+  - On Heroku create an account and log in.
+  - Goto ci-students team
+  - Click ***new*** and ***create new app***.
+  - Choose a name for your app, select region and click on ***Create App***
+  - Create an account and set up a PostgreSGL database in [Elephantsql](https://www.elephantsql.com/docs/index.html)
+  - Under the ***Settings*** click ***Reveal Config Vars*** and all environment variables:
+    - Set IP to 0.0.0.0 
+    - Set PORT to 8000
+    - Set DATABASE_URL
+    - Set CLOUDINARY_URL 
+    - Set HEROKU_HOSTNAME 
+    - Set API_KEY 
+    - Set API_SECRET
+    - Set CLOUD_NAME
+    - Set HEROKU_POSTGRESQL_ROSE_URL
+    - Set SECRET_KEY 
+  - In the local IDE:
+    - Pip install dependencies.
+    - Create ***requirements.txt*** ($ pip3 freeze --local > requirements.txt)
+    - Create a ***Procfile*** (```$ echo web: gunicorn <app_name>.wsgi > Procfile```)
+    - Create an evn.py file and add all your environment variables.
+    - Create a .gitignore file and add your env.py files
+    - Push all the changes
+  
+  - In Heroku ***Deploy*** Tab, the ***deployment method*** select Github,connect you gethub account if its not already connected
+  - Select repository
+  - Scroll down to Manual deploy and deploy branch.
+  - Once the build is complete, go back to Heroku and click on ***Open App***
+
+* Live website : [Student managment system](https://react-students-297a74c90fad.herokuapp.com/)
+
+### HTML VALIDATION
+* Html passed without errors:
+
+<img width="913" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/5248fd9a-1fc2-4298-af1a-2eb61740d2a0">
+
+### CSS VALIDATION
+* No error In Css
+
+
+# Credits
+- I Think Therefore I Blog Tutorial in [Code Institute](https://codeinstitute.net/global/)
+- [Gp Multipurpose HTML and Bootstrap Template](https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/)
+- [Stackoverflow website](https://stackoverflow.com/)
 
 ### Automated:
 
