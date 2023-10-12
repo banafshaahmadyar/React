@@ -27,9 +27,11 @@
 
 # Super Admin
 
- Admin:
-  - Username : std
-  - Password : std
+   Admin:
+    - Username : std
+    - Password : std
+
+
 
     
 
@@ -120,7 +122,28 @@ If user Inter incorect username and password then the alert massage will appear.
 
 <img width="935" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/30ceaf05-c685-4ad1-82fd-31efc74ac778">
 
+* Actions section
 
+<img width="96" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/d4fea066-9ed5-483e-83cb-33163f2fe35f">
+
+* Add student bottom
+  When site user want to add student details with clicking on this bottom new page will appear.
+                                       <img width="98" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/23d2745f-f879-4428-8931-228a1c095caa">
+
+<img width="934" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/371a3a6e-1acc-4a75-8562-077af98988e1">
+
+
+
+
+
+  
+
+
+* Delete Icon
+
+<img width="935" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/4ecbb6c0-c71a-4147-9fd4-df5bc4c8517b">
+
+When user click on ok then one alert massage will appear.
 
 
 
