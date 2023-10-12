@@ -149,7 +149,11 @@ When user click on ok then one alert massage will appear.
 
 <img width="938" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/8b4055e3-9989-4013-bdc1-07920b4a13f2">
 
+* Update Icon
+  When user click on update icon one alert massage will appear then the Id will update.
 
+<img width="938" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/491bedea-bfcb-43d0-9c91-01a7756d26ea">
+  
 
 
 ## Most reused components:
