@@ -277,13 +277,6 @@ When user click on ok then one alert massage will appear.
 - [Gp Multipurpose HTML and Bootstrap Template](https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/)
 - [Stackoverflow website](https://stackoverflow.com/)
 
-### Automated:
-
-- used the msw library to mock user and logout endpoints
-- tested the NavBar component:
-  - renders without a problem
-  - renders the link to a user profile for a logged in user
-  - renders the sign in and sign up buttons again on logout
 
 ### Manual:
 
@@ -301,5 +294,7 @@ When user click on ok then one alert massage will appear.
 - custom hooks written to reduce repeatable state logic:
   - useClickOutsideToggle: enable toggle on the burger menu
   - useRedirect: enable redirect for users who are either logged in or logged out, depending on the use case
+ - For log in page i used "use-eazy-auth": "^2.6.0", 
+ 
 
 ---
