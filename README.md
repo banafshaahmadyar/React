@@ -26,9 +26,12 @@
 ![Alt text](image.png)
 
 # Super Admin
+
  Admin:
   - Username : std
   - Password : std
+
+    
 
 * [User Stories](#user-stories)
 
@@ -99,14 +102,25 @@
 This is a simple app that has log in page, navgations bar , home page , students list and manage students page .
 
 * Log in page
+  
 ![WhatsApp Image 2023-10-10 at 22 31 04](https://github.com/banafshaahmadyar/React/assets/100950189/bc8ce19e-8c46-43a9-a167-5aefa811b311)
 
 If user Inter incorect username and password then the alert massage will appear.
 ![WhatsApp Image 2023-10-10 at 22 33 44](https://github.com/banafshaahmadyar/React/assets/100950189/6cf3c722-d726-405c-9fd5-79879b404f61)
 
+* Home page
+
+<img width="941" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/c04a57e6-23cc-4dbe-80ae-d6b0865846de">
+
+* Students list page
+
+<img width="941" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/75b948a6-f189-4d3d-b76a-45de54abdb71">
+
+* Manage Students page
+
+<img width="935" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/30ceaf05-c685-4ad1-82fd-31efc74ac778">
 
 
-<img width="938" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/eae535df-619f-4574-8fd1-e2cdfb4fe44c">
 
 
 
