@@ -25,11 +25,32 @@
 
 ![Alt text](image.png)
 
+# Super Admin
+ Admin:
+  - Username : std
+  - Password : std
 
-## User stories
+* [User Stories](#user-stories)
+
+* [Features](#features)
+
+* [Design](#design)
+    * [Colors](#colors)
+    * [Font](#font)
+  
+* [Technology Used](#technology-used)
+
+* [Deployment](#deployment)
+
+* [Credits](#credits)
+
+
+
+## _**User Stories**_
 
 | Category  | as      | I want to                      | so that I can                                                                                    | 
 | --------- | ------- | ------------------------------ | ------------------------------------------------------------------------------------------------ |
+| Log in page     | site user    | can log app         | So that can get accsess on  Students managment system  app                                                      |
 | App name      | site user    | can see app name         | So that is Students managment system                                                           |
 | Logo      | Site user    | can see logo in this app        | that is before app name                                                               |
 | Background color of header      | Site user    | can see background color of header        | That the color is black                                                                                     |
@@ -70,6 +91,22 @@
 | Edit icon page content Email | Site user    | can edit Email of student              | that entered before in Add student page                                                        | 
 | Edit icon page content Course | Site user    | can edit course details             | so that entered in Add student page before                                                         | 
 | At the end | Site user    | can use this app if we want to store edit delete and update any information for our students               | 👍 (:                                                       | 
+
+* You can find the agile method to my user stories on my github repo just click [here](https://github.com/users/banafshaahmadyar/projects/22)
+
+## _**Features**_
+
+This is a simple app that has log in page, navgations bar , home page , students list and manage students page .
+
+* Log in page
+![WhatsApp Image 2023-10-10 at 22 31 04](https://github.com/banafshaahmadyar/React/assets/100950189/bc8ce19e-8c46-43a9-a167-5aefa811b311)
+
+If user Inter incorect username and password then the alert massage will appear.
+![WhatsApp Image 2023-10-10 at 22 33 44](https://github.com/banafshaahmadyar/React/assets/100950189/6cf3c722-d726-405c-9fd5-79879b404f61)
+
+
+
+<img width="938" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/eae535df-619f-4574-8fd1-e2cdfb4fe44c">
 
 
 
