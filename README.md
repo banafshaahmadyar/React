@@ -122,9 +122,6 @@ If user Inter incorect username and password then the alert massage will appear.
 
 <img width="935" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/30ceaf05-c685-4ad1-82fd-31efc74ac778">
 
-* Actions section
-
-<img width="96" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/d4fea066-9ed5-483e-83cb-33163f2fe35f">
 
 * Add student bottom
   When site user want to add student details with clicking on this bottom new page will appear.
@@ -140,20 +137,17 @@ If user Inter incorect username and password then the alert massage will appear.
 * New Id will appear in student list page
 ![WhatsApp Image 2023-10-12 at 16 26 50](https://github.com/banafshaahmadyar/React/assets/100950189/31c90f5d-3511-43f1-b8b4-d370c0aacaa1)
 
+* Actions section
 
-
-
-
-
-
-  
-
+<img width="96" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/d4fea066-9ed5-483e-83cb-33163f2fe35f">  
 
 * Delete Icon
 
 <img width="935" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/4ecbb6c0-c71a-4147-9fd4-df5bc4c8517b">
 
 When user click on ok then one alert massage will appear.
+
+<img width="938" alt="image" src="https://github.com/banafshaahmadyar/React/assets/100950189/8b4055e3-9989-4013-bdc1-07920b4a13f2">
 
 
 
